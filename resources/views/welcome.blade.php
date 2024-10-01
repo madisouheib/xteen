@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
-
+        <title>منصة التجارة الإلكترونية - استثمار، تجارة، حلول وخدمات</title>
+        <meta name="keywords" content="تجارة الكترونية, استثمار, تجارة, حلول التجارة, خدمات التجارة, منصات التجارة, رأس المال, التسويق الرقمي, ريادة الأعمال, حلول الأعمال, مشروع التجارة الالكترونية, مشاكل التجارة الالكترونية, تطوير الأعمال">
         <link rel="stylesheet" href="{{ asset('website/css/bootstrap-rtl.min.css') }}">
         <!-- Fontawesome CSS -->
         <link rel="stylesheet" href="{{ asset('website/css/fontawesome-all.min.css') }}">
@@ -52,12 +52,12 @@
                         <div class="fxt-transformX-L-50 fxt-transition-delay-5">
                             <div class="fxt-middle-content">
                                 <h1 class="fxt-main-title" style="color:#4c4c4e;">مرحبا بك في xtenweb </h1>
-                                <div class="fxt-switcher-description1">رفيقك في تطوير و نجاح تجارتك الالكترونية <a href="login-34.html" class="fxt-switcher-text ms-2">سجل معنا الان</a></div>
+                                <div class="fxt-switcher-description1">رفيقك في تطوير و نجاح تجارتك الالكترونية <a href="{{ url('/')}}" class="fxt-switcher-text ms-2">سجل معنا الان</a></div>
                             </div>
                         </div>
                         <div class="fxt-transformX-L-50 fxt-transition-delay-7">
                             <div class="fxt-qr-code">
-                                <img src="{{ asset('website/img/elements/qr-register-34.png') }}" alt="QR">
+                                <img src="{{ asset('website/Qr.png') }}" alt="QR">
                             </div>
                         </div>
                     </div>
@@ -223,11 +223,7 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="fxt-style-line">
-                            <span><a href="https://colivraison.express">
-                            <img src="{{ url('website/colivraison.png') }}" style="width:50px;height:50px;"> 
-                            </a> Prowerd By   </span>
-                        </div>
+                    
                     </div>
                 </div>
             </div>
