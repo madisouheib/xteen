@@ -57,7 +57,7 @@
                         </div>
                         <div class="fxt-transformX-L-50 fxt-transition-delay-7">
                             <div class="fxt-qr-code">
-                                <img src="{{ asset('website/Qr.png') }}" alt="QR">
+                                <img src="{{ asset('website/Qr.png') }}" style="width:200px;" alt="QR">
                             </div>
                         </div>
                     </div>
